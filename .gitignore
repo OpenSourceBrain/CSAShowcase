@@ -33,3 +33,9 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# CSA specific files
+
+CSA/Results
+CSA/*.*ml
+
