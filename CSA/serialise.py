@@ -28,5 +28,6 @@ c_i = cset (random * g_i, -g_i, d)
 c = cross (e, a) * c_e + cross (i, a) * c_i
 
 xml_out = c.to_xml()
+
 print xml_out
 c.write('serial.xml')
